@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Krish Satasiya - Connectly",
+  title: "Krish Satasiya - RxMeet",
   description: "Video calling App",
   icons: {
-    icon: "/icons/Connectly-logo.svg",
+    icon: "/icons/FAV.svg",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/Connectly-logo.svg",
+            logoImageUrl: "/icons/logo.svg",
           },
           variables: {
             colorText: "#fff",

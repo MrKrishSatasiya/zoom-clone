@@ -70,11 +70,18 @@ const MeetingTypeList = () => {
   const meetingLink = `${process.env.NEXT_PUBLIC_BASE_URL}/meeting/${callDetail?.id}`;
 
   return (
-    <section className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4">
+    <section className="flex flex-wrap gap-3 justify-between pb-4 w-full overflow-x-auto">
       <HomeCard
         img="/icons/add-meeting.svg"
         title="New Meeting"
         description="Start an instant meeting"
+        handleClick={() => setMeetingState('isInstantMeeting')}
+      />
+      <HomeCard
+        img="/icons/add-personal.svg"
+        title="New Meeting"
+        description="Create with custom settings"
+        className="bg-green-500"
         handleClick={() => setMeetingState('isInstantMeeting')}
       />
       <HomeCard

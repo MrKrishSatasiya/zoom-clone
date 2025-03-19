@@ -29,9 +29,9 @@ const MobileNav = () => {
               src="/icons/logo.svg"
               width={60}
               height={32}
-              alt="Krish Satasiya - Connectly"
+              alt="Krish Satasiya - RxMeet"
             />
-            <p className="text-[26px] font-extrabold text-white">Krish Satasiya - Connectly</p>
+            <p className="text-[26px] font-extrabold text-white">Krish Satasiya - RxMeet</p>
           </Link>
           <div className="flex h-[calc(100vh-72px)] flex-col justify-between overflow-y-auto">
             <SheetClose asChild>
